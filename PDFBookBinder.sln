@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFBookBinder", "PDFBookBinder\PDFBookBinder.csproj", "{AB1F234F-4591-4AFB-823A-09E33647D0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp", "PdfSharp\PdfSharp.csproj", "{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp.Charting", "PdfSharp.Charting\PdfSharp.Charting.csproj", "{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc.DocumentObjectModel", "MigraDoc.DocumentObjectModel\MigraDoc.DocumentObjectModel.csproj", "{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc.Rendering", "MigraDoc.Rendering\MigraDoc.Rendering.csproj", "{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc.RtfRendering", "MigraDoc.RtfRendering\MigraDoc.RtfRendering.csproj", "{22010032-52DC-464D-B8BB-6CD9BF230D1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Debug|x64.ActiveCfg = Debug|x64
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Debug|x64.Build.0 = Debug|x64
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Release|x64.ActiveCfg = Release|x64
+		{AB1F234F-4591-4AFB-823A-09E33647D0E9}.Release|x64.Build.0 = Release|x64
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Debug|x64.ActiveCfg = Debug|x64
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Debug|x64.Build.0 = Debug|x64
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Release|x64.ActiveCfg = Release|Any CPU
+		{5384CE57-1F94-4D22-860D-2E9C1AC12DDF}.Release|x64.Build.0 = Release|Any CPU
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Debug|x64.ActiveCfg = Debug|x64
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Debug|x64.Build.0 = Debug|x64
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Release|x64.ActiveCfg = Release|Any CPU
+		{CFDB7D46-EA8D-47DE-B10A-9E755A1B48BA}.Release|x64.Build.0 = Release|Any CPU
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Debug|x64.ActiveCfg = Debug|x64
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Debug|x64.Build.0 = Debug|x64
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Release|x64.ActiveCfg = Release|Any CPU
+		{4666ABF3-EFE5-49BD-B2E8-9E04F5949145}.Release|x64.Build.0 = Release|Any CPU
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Debug|x64.ActiveCfg = Debug|x64
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Debug|x64.Build.0 = Debug|x64
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Release|x64.ActiveCfg = Release|Any CPU
+		{FEBBE5BE-9F58-4967-BBCF-801F1CFCD774}.Release|x64.Build.0 = Release|Any CPU
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Debug|x64.ActiveCfg = Debug|x64
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Debug|x64.Build.0 = Debug|x64
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|x64.ActiveCfg = Release|Any CPU
+		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06C64728-C569-4120-86D6-76EF1477A43C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zeroserenity.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PDFBookBinder\\PDFBookBinder.csproj
+		SccProjectName1 = PDFBookBinder
+		SccLocalPath1 = PDFBookBinder
+		SccProjectUniqueName2 = PdfSharp\\PdfSharp.csproj
+		SccProjectName2 = PdfSharp
+		SccLocalPath2 = PdfSharp
+		SccProjectUniqueName3 = PdfSharp.Charting\\PdfSharp.Charting.csproj
+		SccProjectName3 = PdfSharp.Charting
+		SccLocalPath3 = PdfSharp.Charting
+		SccProjectUniqueName4 = MigraDoc.DocumentObjectModel\\MigraDoc.DocumentObjectModel.csproj
+		SccProjectName4 = MigraDoc.DocumentObjectModel
+		SccLocalPath4 = MigraDoc.DocumentObjectModel
+		SccProjectUniqueName5 = MigraDoc.Rendering\\MigraDoc.Rendering.csproj
+		SccProjectName5 = MigraDoc.Rendering
+		SccLocalPath5 = MigraDoc.Rendering
+		SccProjectUniqueName6 = MigraDoc.RtfRendering\\MigraDoc.RtfRendering.csproj
+		SccProjectName6 = MigraDoc.RtfRendering
+		SccLocalPath6 = MigraDoc.RtfRendering
+	EndGlobalSection
+EndGlobal
